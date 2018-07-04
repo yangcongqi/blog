@@ -58,9 +58,9 @@ spark.executor.cores 4
 
 # GC调优
 另外在分析spark日志过程中，发现gc时间占比达到38%
-![](图片链接地址)
+![](https://github.com/yangcongqi/blog/blob/master/spark/picture/gc优化前.png)
 把gc设置为g1后，gc时间减小到原来的13%
-![](图片链接地址)
+![](https://github.com/yangcongqi/blog/blob/master/spark/picture/gc优化后.png)
 
 
 # 总结
